@@ -1,0 +1,5 @@
+Mann-Whitney income: median defaulters = 5,227.00, non-defaulters = 5,400.00, p = 5.6e-127
+Mann-Whitney age: median defaulters = 45.00, non-defaulters = 52.00, p = 0
+Mann-Whitney debt_ratio: median defaulters = 0.43, non-defaulters = 0.36, p = 3.02e-14
+Chi-square, any 90+ day late vs default: default rate 41.3% (late) vs 4.7% (never late), p = 0
+Note: with ~150k rows almost everything is 'significant'. Look at the size of the difference, not just the p-value.

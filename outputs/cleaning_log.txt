@@ -1,0 +1,15 @@
+Rows loaded: 150,000
+Default rate (raw): 6.68%
+Missing values in income: 29,731 (19.8%)
+Missing values in dependents: 3,924 (2.6%)
+Dropped 609 duplicate rows
+Dropped 1 rows with age < 18 (invalid for a borrower)
+late_30_59: 225 values coded 96/98 (placeholder codes, not real counts) set to missing
+late_60_89: 225 values coded 96/98 (placeholder codes, not real counts) set to missing
+late_90: 225 values coded 96/98 (placeholder codes, not real counts) set to missing
+Added income_missing flag (29,221 rows) before imputing income with the median
+utilization: capped 1,494 extreme values at the 99th percentile (1.09)
+debt_ratio: capped 1,494 extreme values at the 99th percentile (4,985.11)
+income: capped 1,494 extreme values at the 99th percentile (23,084.10)
+Rows after cleaning: 149,390
+Default rate (clean): 6.70%  <- class imbalance, so accuracy is NOT a useful metric

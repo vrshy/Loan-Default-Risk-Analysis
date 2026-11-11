@@ -1,0 +1,11 @@
+age_band,payment_history,borrowers,defaulters,default_rate_pct,risk_rank,share_of_all_defaults_pct
+1) 18-29,Has late payments,2140,632,29.53,1,6.31
+2) 30-39,Has late payments,5794,1532,26.44,2,15.31
+3) 40-49,Has late payments,8266,1952,23.61,3,19.5
+4) 50-59,Has late payments,7564,1531,20.24,4,15.3
+5) 60+,Has late payments,6318,967,15.31,5,9.66
+1) 18-29,No late payments,6469,394,6.09,6,3.94
+2) 30-39,No late payments,17344,801,4.62,7,8.0
+3) 40-49,No late payments,26073,924,3.54,8,9.23
+4) 50-59,No late payments,27667,743,2.69,9,7.42
+5) 60+,No late payments,41755,533,1.28,10,5.33

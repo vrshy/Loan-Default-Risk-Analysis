@@ -1,0 +1,25 @@
+
+Logistic Regression
+  ROC-AUC = 0.858   PR-AUC = 0.393   (a model that guesses randomly gets PR-AUC ~ 0.067)
+  Top 10% highest-risk borrowers contain 54.1% of all defaulters
+              precision    recall  f1-score   support
+
+  no default      0.979     0.801     0.881     27876
+     default      0.215     0.755     0.334      2002
+
+    accuracy                          0.798     29878
+   macro avg      0.597     0.778     0.608     29878
+weighted avg      0.927     0.798     0.845     29878
+
+
+XGBoost
+  ROC-AUC = 0.866   PR-AUC = 0.410   (a model that guesses randomly gets PR-AUC ~ 0.067)
+  Top 10% highest-risk borrowers contain 55.9% of all defaulters
+              precision    recall  f1-score   support
+
+  no default      0.981     0.797     0.879     27876
+     default      0.216     0.782     0.339      2002
+
+    accuracy                          0.796     29878
+   macro avg      0.598     0.789     0.609     29878
+weighted avg      0.929     0.796     0.843     29878
